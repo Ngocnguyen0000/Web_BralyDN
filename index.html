@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Braly - Công ty công nghệ hàng đầu chuyên phát triển ứng dụng di động cho hàng triệu người dùng trên toàn thế giới">
+    <meta name="keywords" content="Braly, ứng dụng di động, mobile app, công nghệ, Đà Nẵng">
+    <meta name="author" content="Braly">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://braly.com/">
+    <meta property="og:title" content="Braly - We Create Mobile Apps">
+    <meta property="og:description" content="Công ty công nghệ hàng đầu chuyên phát triển ứng dụng di động">
+    <meta property="og:image" content="assets/images/braly-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://braly.com/">
+    <meta property="twitter:title" content="Braly - We Create Mobile Apps">
+    <meta property="twitter:description" content="Công ty công nghệ hàng đầu chuyên phát triển ứng dụng di động">
+    <meta property="twitter:image" content="assets/images/braly-logo.png">
+
+    <title>Braly - We Create Mobile Apps</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/images/Logo_mau.png" as="image">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Braly",
+      "url": "https://braly.com",
+      "logo": "https://braly.com/assets/images/braly-logo.png",
+      "description": "Công ty công nghệ hàng đầu chuyên phát triển ứng dụng di động",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "71 Lý Thường Kiệt",
+        "addressLocality": "Đà Nẵng",
+        "addressCountry": "VN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+84-123-456-789",
+        "contactType": "customer service"
+      }
+    }
+</script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Braly Homepage">
+                <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="navbar-logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" aria-current="page">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            Blog & Tin tức
+                        </a>
+                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#activities">Hoạt động gần đây</a>
+                            <a class="dropdown-item" href="blog.html">Blog & Tin tức</a>
+                        </div> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản phẩm</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="services.html">Dịch vụ</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section position-relative text-white text-center" role="banner">
+            <!-- Background Image -->
+            <div class="hero-image position-absolute top-0 start-0 w-100 h-100" aria-hidden="true">
+                <img src="/assets/images/494460747_655304400609399_217649.png" alt="" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy">
+            </div>
+        
+            <!-- Overlay nếu cần làm tối ảnh -->
+            <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);" aria-hidden="true"></div>
+        
+            <!-- Content -->
+            <div class="container position-relative d-flex flex-column justify-content-center align-items-center" style="min-height: auto; z-index: 2;">
+                <h1 class="hero-title fade-in">We Are Braly Da Nang</h1>
+                <p class="hero-subtitle mb-5 fade-in-delay-1">We create mobile apps for millions user around the world</p>
+                <button class="btn btn-primary btn-lg cta-button fade-in-delay-2" type="button">
+                    Khám phá ngay
+                </button>
+            </div>
+        </section>
+        
+
+        <!-- Company Values Section -->
+        <section class="py-5 bg-light" aria-labelledby="company-values-title">
+            <div class="container">
+              <div class="text-center mb-5">
+                <h2 id="company-values-title" class="section-title">
+                  BETTER THAN <span class="text-gradient">YESTERDAY</span>
+                </h2>
+                <p class="text-muted">Sứ mệnh và tầm nhìn định hướng hành trình phát triển của Braly</p>
+              </div>
+          
+              <div class="row align-items-center">
+                <!-- Sứ mệnh - Left -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <div class="values-info-panel bg-white rounded-lg shadow p-4 h-100">
+                    <h3 class="h5 text-primary font-weight-bold mb-4">Sứ mệnh</h3>
+          
+                    <div class="info-item mb-3">
+                      <div class="d-flex align-items-center mb-2">
+                        <h4 class="h6 mb-0 font-weight-bold" style="font-size: large; color: #007bff;">
+                          "Make it easy to do everything"
+                        </h4>
+                      </div>
+                      <p class="text-muted small mb-0">
+                        Sứ mệnh của chúng tôi là xây dựng một thế giới nơi mọi người có thể dễ dàng hoàn thành mọi việc thông qua công nghệ. Chúng tôi cam kết mang lại sự thuận tiện và linh hoạt cho các cá nhân trong mọi khía cạnh của cuộc sống, từ công việc đến giải trí, từ giáo dục đến sức khỏe.
+                      </p>
+                    </div>
+          
+                    <div class="mission-image-container mt-3">
+                      <img src="assets/images/su-menh.png" alt="Sứ mệnh Braly" class="img-fluid rounded shadow-sm" />
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Central Image -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <div class="central-image-container text-center">
+                    <div class="position-relative d-inline-block">
+                      <img
+                        src="assets/images/500084928_669891139150725_352202.png"
+                        alt="Giá trị cốt lõi Braly"
+                        class="img-fluid rounded-lg shadow-lg"
+                      />
+                      <div class="central-overlay">
+                        <div class="overlay-badge bg-primary text-white rounded-pill px-4 py-2 mt-3">
+                          <i class="fas fa-heart mr-2"></i>
+                          <span class="font-weight-bold">Core Values</span>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Stats under image -->
+                    <div class="stats-row mt-4">
+                      <div class="row text-center">
+                        <div class="col-4">
+                          <div class="stat-item">
+                            <h4 class="text-primary font-weight-bold mb-1">10+</h4>
+                            <small class="text-muted">Nhân viên</small>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="stat-item">
+                            <h4 class="text-success font-weight-bold mb-1">2M+</h4>
+                            <small class="text-muted">Người dùng</small>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="stat-item">
+                            <h4 class="text-warning font-weight-bold mb-1">5+</h4>
+                            <small class="text-muted">Năm kinh nghiệm</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Tầm nhìn - Right -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <div class="values-info-panel bg-white rounded-lg shadow p-4 h-100">
+                    <h3 class="h5 text-success font-weight-bold mb-4">Tầm nhìn</h3>
+          
+                    <div class="info-item mb-3">
+                      <div class="d-flex align-items-center mb-2">
+                        <h4 class="h6 mb-0 font-weight-bold" style="font-size: large; color: #28a745;">
+                          "Top 1 revenue non gaming Vietnam company"
+                        </h4>
+                      </div>
+                      <p class="text-muted small mb-0">
+                        Chìa khóa của thành công này là sự không ngừng đổi mới và tập trung vào nhu cầu thực tế của người tiêu dùng. Chúng tôi sẽ tiếp tục đầu tư mạnh mẽ vào nghiên cứu và phát triển để tạo ra những ứng dụng mà người dùng cần và muốn sử dụng hàng ngày.
+                      </p>
+                    </div>
+          
+                    <div class="vision-image-container mt-3">
+                      <img src="assets/images/tam-nhin.png" alt="Tầm nhìn Braly" class="img-fluid rounded shadow-sm" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- Core Values Section -->
+        <section class="py-5 bg-white" aria-labelledby="core-values-title">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 id="core-values-title" class="section-title">Giá trị <span class="text-gradient">cốt lõi</span></h2>
+                </div>
+                
+                <!-- Main Featured Value -->
+
+                <div class="row justify-content-center mb-4">
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <article class="card featured-value-card border-0 shadow-lg text-center card-hover h-100 w-100">
+                    <div class="card-body p-5 d-flex flex-column">
+                      <div class="value-icon bg-success text-white mx-auto mb-4" aria-hidden="true">
+                        <i class="fas fa-bullseye"></i>
+                      </div>
+                      <h3 class="card-title mb-4 text-primary">Minh bạch</h3>
+                      <p class="card-text text-muted mb-4 mt-auto">
+                        Chúng tôi tin vào sự cởi mở và trung thực trong mọi giao dịch của mình, cho dù đó là với khách hàng hay nhân viên.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <article class="card featured-value-card border-0 shadow-lg text-center card-hover h-100 w-100">
+                    <div class="card-body p-5 d-flex flex-column">
+                      <div class="value-icon bg-warning text-white mx-auto mb-4" aria-hidden="true">
+                        <i class="fas fa-handshake"></i>
+                      </div>
+                      <h3 class="card-title mb-4 text-primary">Sát sao</h3>
+                      <p class="card-text text-muted mb-4 mt-auto">
+                        Tại Braly, văn hóa "sát sao" không chỉ là một phương châm mà còn là cách sống của chúng tôi.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row justify-content-center mb-4">
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <article class="card featured-value-card border-0 shadow-lg text-center card-hover h-100 w-100">
+                    <div class="card-body p-5 d-flex flex-column">
+                      <div class="value-icon bg-warning text-white mx-auto mb-4" aria-hidden="true">
+                        <i class="fas fa-lightbulb"></i>
+                      </div>
+                      <h3 class="card-title mb-4 text-primary">Sáng tạo</h3>
+                      <p class="card-text text-muted mb-4 mt-auto">
+                        Chúng tôi luôn khuyến khích mọi nhân viên được nuôi dưỡng trí tưởng tượng và thoải mái đề xuất những ý tưởng mới.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <article class="card featured-value-card border-0 shadow-lg text-center card-hover h-100 w-100">
+                    <div class="card-body p-5 d-flex flex-column">
+                      <div class="value-icon bg-info text-white mx-auto mb-4" aria-hidden="true">
+                        <i class="fas fa-bolt"></i>
+                      </div>
+                      <h3 class="card-title mb-4 text-primary">Linh hoạt</h3>
+                      <p class="card-text text-muted mb-4 mt-auto">
+                        Tại Braly linh hoạt không chỉ là giá trị mà còn là một phần không thể thiếu của văn hoá tổ chức. Chúng tôi tự hào về khả năng đáp ứng linh hoạt đối với nhu cầu riêng của khách hàng.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <article class="card featured-value-card border-0 shadow-lg text-center card-hover h-100 w-100">
+                    <div class="card-body p-5 d-flex flex-column">
+                      <div class="value-icon bg-danger text-white mx-auto mb-4" aria-hidden="true">
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h3 class="card-title mb-4 text-primary">Đồng hành</h3>
+                      <p class="card-text text-muted mb-4 mt-auto">
+                        Tại công ty chúng tôi, văn hoá “đồng hành” không chỉ là một phương châm mà còn là tinh thần chung của mọi người. Chúng tôi tôn trọng và coi trọng sự phát triển của từng cá nhân cũng như của cả đội nhóm.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              
+            </div>
+        </section>
+
+        <!-- Company Culture Section -->
+        <section class="py-5 bg-light" aria-labelledby="culture-title">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 id="culture-title" class="section-title">Văn hóa <span class="text-gradient">Braly</span></h2>
+                </div>
+                
+                <!-- Supportive Culture -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="culture-icon bg-primary text-white mr-3" aria-hidden="true">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="mb-0">Supportive</h3>
+                        </div>
+                        <p class="text-muted mb-3">
+                            Văn hóa supportive là một nguyên tắc hướng dẫn cho mọi hành động và quyết định của công ty.
+                        </p>
+                        <p class="text-muted mb-3">
+                            Chúng tôi coi trong sự thành công của cá nhân những sự phát triển của đội nhóm là vấn đề tiên quyết.
+                        </p>
+                        <p class="text-muted">
+                            Văn hóa supportive của chúng tôi cũng thể hiện thông qua sự chú trọng đặc biệt vào sự công tác và giao tiếp.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/images/499971379_669892549150584_487522.png" alt="Văn hóa hỗ trợ tại Braly" class="img-fluid rounded shadow" loading="lazy">
+                    </div>
+                </div>
+                
+                <!-- Learning & Development -->
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="culture-icon bg-success text-white mr-3" aria-hidden="true">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="mb-0">Learning & Development</h3>
+                        </div>
+                        <p class="text-muted mb-3">
+                            Văn hóa của chúng tôi đặt sự coi trọng học tập và phát triển ở vị trí trung tâm, nhìn nhận rằng sự tiến bộ không ngừng và sự học hỏi liên tục là chìa khóa của sự thành công cá nhân và tập thể.
+                        </p>
+                        <p class="text-muted">
+                            Chúng tôi khuyến khích mọi thành viên của tổ chức học hỏi, phát triển kỹ năng, và không ngần ngại thách thức bản thân.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <img src="assets/images/494460747_655304400609399_217649.png" alt="Học tập và phát triển tại Braly" class="img-fluid rounded shadow" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Hard Play Hard Section -->
+        <section class="py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="culture-icon bg-light text-dark mr-3" aria-hidden="true">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3 class="mb-0 text-white">Work hard – Play hard</h3>
+                        </div>
+                        <p class="text-light mb-4">
+                            Chúng tôi không chỉ là những người làm việc chăm chỉ, mà còn là những người đam mê, tràn đầy nhiệt huyết. Mỗi ngày, chúng tôi đặt tâm huyết và nỗ lực tối đa vào công việc của mình, đạt ra những mục tiêu cao lớn và không ngừng vươn lên.
+                        </p>
+                        <p class="text-light">
+                            Chúng tôi không chỉ là những con người nghiêm túc mà chúng tôi cũng biết mình, đam mê và sống tạo. Chúng tôi tận hưởng mỗi khoảnh khắc, tạo ra những kỷ niệm đáng nhớ và kết nối mạnh mẽ với đồng đội.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="video-container">
+                            <img src="assets/images/493155000_652981014175071_768687.png" alt="Làm việc chăm chỉ và vui chơi tại Braly" class="img-fluid rounded" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="py-5" aria-labelledby="activities-title">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 id="activities-title" class="section-title">Hoạt <span class="text-gradient">động</span></h2>
+                    <p class="text-muted">Những hoạt động mới nhất của chúng tôi!</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card activity-card h-100 border-0 shadow hover-lift">
+                            <div class="card-img-container">
+                                <img src="assets/images/494460747_655304400609399_217649.png" alt="Birthday & Year End Party 2024" class="card-img-top" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-weight-bold h6">
+                                    [BIRTHDAY & YEAR END PARTY 2024] SPEED UP! BRALY! - TĂNG TỐC VƯƠN XA 🏎️🏁
+                                </h3>
+                                <p class="card-text text-muted small">
+                                    Ngày 18/1, tại vùng đất thơ mộng Ba Vì, đại gia đình BRALY đã cùng nhau bùng nổ với sự kiện Birthday & Year End Party 2024...
+                                </p>
+                                <time class="text-primary small" datetime="2025-01-23">January 23, 2025</time>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card activity-card h-100 border-0 shadow hover-lift">
+                            <div class="card-img-container">
+                                <img src="assets/images/494460747_655304400609399_217649.png" alt="Tết Dương Lịch 2024" class="card-img-top" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-weight-bold h6">
+                                    [TẾT DƯƠNG LỊCH 2024] HÀO HỨNG ĐÓN TẾT - NHẬN QUÀ TỪ BRALY 🏠🎄🎁
+                                </h3>
+                                <p class="card-text text-muted small">
+                                    Hôm nay, ngày 30/12, không khí tại công ty Braly ngập tràn niềm vui khi các phần quà Tết Dương Lịch được trao tận tay đến từng nhân viên...
+                                </p>
+                                <time class="text-primary small" datetime="2024-12-31">December 31, 2024</time>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card activity-card h-100 border-0 shadow hover-lift">
+                            <div class="card-img-container">
+                                <img src="assets/images/499971379_669892549150584_487522.png" alt="Giáng Sinh 2024" class="card-img-top" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-weight-bold h6">
+                                    [GIÁNG SINH 2024] MERRY CHRISTMAS 🏠🎄🎁
+                                </h3>
+                                <p class="card-text text-muted small">
+                                    Chiều nay, cả nhà Braly đã có một buổi lễ Giáng sinh thật đầm ấm và vui nhộn. Secret Santa, những món quà bí mật được trao nhau đầy bất ngờ và ý nghĩa...
+                                </p>
+                                <time class="text-primary small" datetime="2024-12-31">December 31, 2024</time>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <a href="blog.html" class="btn btn-outline-primary">Xem thêm <i class="fas fa-arrow-right ml-1" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section id="products" class="py-5 bg-primary text-white" aria-labelledby="products-title">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <h1 id="products-title" class="text-white mb-4">
+                    Studio phát triển game <br> chất lượng cao
+                  </h1>
+                  <p class="text-light mb-4">
+                    Chúng tôi thiết kế và xây dựng các trò chơi trên CH Play,
+                    <br> tạo nên những trải nghiệm hấp dẫn và dễ tiếp cận.
+                  </p>
+
+          
+                  <!-- Person with laptop image (left commented out) -->
+                  <div class="mt-4">
+                    <!-- <img
+                      src="./assets/images/BETTER THAN (1).png"
+                      alt="Chuyên gia tư vấn công nghệ"
+                      class="img-fluid"
+                      style="max-width: 400px;"
+                      loading="lazy"
+                    /> -->
+                  </div>
+                </div>
+          
+                <div class="col-lg-6">
+                  <div class="row">
+                    <!-- Glow Dots Art -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-white text-dark h-100 border-0 shadow" style="border-radius: 10px;">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/glow dot art.png"
+                            alt="Glow Dots Art Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div class="d-flex flex-column justify-content-center">
+                            <h3 class="card-title font-weight-bold mb-2 h6" style="font-size: 1.1rem;">Glow Dots Art - Dot to Dot</h3>
+                            <p class="card-text text-muted small mb-0">
+                              5.0 <i class="fas fa-star text-warning"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Pixel Art -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-light text-dark h-100 border-0">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/a_JG1FZV6KqCRDeVWLQP1as6gA-LUePr.png"
+                            alt="Pixel Art Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div>
+                            <h3 class="card-title font-weight-bold mb-2 h6">Pixel Art - Color by Number</h3>
+                            <p class="card-text text-muted small mb-0">
+                              Not rated
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- PrankApp -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-white text-dark h-100 border-0 shadow">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/screenshot1.png"
+                            alt="PrankApp Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div>
+                            <h3 class="card-title font-weight-bold mb-2 h6">PrankApp - Funny Prank Sound FX</h3>
+                            <p class="card-text text-muted small mb-0">
+                              Not rated
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Neliz -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-white text-dark h-100 border-0 shadow">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/Neli Thẻ động lực, hạnh phúc.png"
+                            alt="Neliz Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div>
+                            <h3 class="card-title font-weight-bold mb-2 h6">Neliz: Thế đóng lức, hành phúc</h3>
+                            <p class="card-text text-muted small mb-0">
+                              5.0 <i class="fas fa-star text-warning"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Nellex -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-light text-dark h-100 border-0">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/NelieX Chia sẻ trải nghiệm.png"
+                            alt="Nellex Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div>
+                            <h3 class="card-title font-weight-bold mb-2 h6">Nellex: Chia sẻ trải nghiệm</h3>
+                            <p class="card-text text-muted small mb-0">
+                              Not rated
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Squid Challenge -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card service-product-card bg-light text-dark h-100 border-0">
+                        <div class="card-body p-4 d-flex align-items-start">
+                          <img
+                            src="/assets/images/Squid Challenge - Fun Filter.png"
+                            alt="Squid Challenge Icon"
+                            class="rounded me-3"
+                            style="width: auto; height: 100px; margin-right: 1rem; border-radius: 5rem;"
+                          />
+                          <div>
+                            <h3 class="card-title font-weight-bold mb-2 h6">Squid Challenge - Fun Filter</h3>
+                            <p class="card-text text-muted small mb-0">
+                              Not rated
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Add this CSS to your stylesheet -->
+          <style>
+            @media (max-width: 576px) {
+              .service-product-card img {
+                width: 48px !important;
+                height: 48px !important;
+              }
+              .service-product-card .card-body {
+                padding: 0.75rem !important;
+              }
+              .service-product-card .card-title {
+                font-size: 0.9rem !important;
+              }
+              .service-product-card .card-text {
+                font-size: 0.75rem !important;
+              }
+            }
+          </style>
+
+          <section class="py-5 bg-light" aria-labelledby="contact-title" style="background-color: #f8f9fa;">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <div class="text-center mb-5">
+                    <h2 id="contact-title" class="section-title" style="font-size: 2.5rem; color: #1a1a1a; position: relative; display: inline-block;">
+                      Liên hệ với chúng tôi
+                      <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 50px; height: 3px; background-color: #007bff;"></span>
+                    </h2>
+                    <p class="text-muted mt-3" style="font-size: 1.1rem;">
+                      Hãy để lại thông tin, chúng tôi sẽ liên hệ với bạn sớm nhất
+                    </p>
+                  </div>
+          
+                  <div class="row">
+                    <!-- Thông tin liên hệ - Left -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="card border-0 shadow-sm h-100" style="background-color: #ffffff; border-radius: 10px;">
+                        <div class="card-body p-4">
+                          <h3 class="h4 mb-4" style="color: #007bff; font-weight: 600;">Thông tin liên hệ</h3>
+                          <div class="contact-info">
+                            <div class="contact-item d-flex align-items-start mb-4 transition-all" style="transition: all 0.3s ease;">
+                              <div>
+                                <h4 class="h6 mb-1" style="font-weight: 600;">Địa chỉ</h4>
+                                <p class="text-muted mb-0">Tầng 2, 71 Lý Thường Kiệt, Hải Châu, Đà Nẵng</p>
+                              </div>
+                            </div>
+                            <div class="contact-item d-flex align-items-start mb-4 transition-all" style="transition: all 0.3s ease;">
+                              <div>
+                                <h4 class="h6 mb-1" style="font-weight: 600;">Điện thoại</h4>
+                                <p class="text-muted mb-0">
+                                  <a href="tel:+84123456789" style="color: #6c757d; text-decoration: none; transition: color 0.3s ease;">+84 48544914</a>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="contact-item d-flex align-items-start mb-4 transition-all" style="transition: all 0.3s ease;">
+                              <div>
+                                <h4 class="h6 mb-1" style="font-weight: 600;">Email</h4>
+                                <p class="text-muted mb-0">
+                                  <a href="mailto:contact@braly.com" style="color: #6c757d; text-decoration: none; transition: color 0.3s ease;">contact@braly.com</a>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="contact-item d-flex align-items-start transition-all" style="transition: all 0.3s ease;">
+                              <div>
+                                <h4 class="h6 mb-1" style="font-weight: 600;">Giờ làm việc</h4>
+                                <p class="text-muted mb-0">
+                                  Thứ 2 - Thứ 6: 8:00 - 17:30
+                                  <br>
+                                  (Hôm nay: 
+                                  <span id="current-status">
+                                    <!-- JavaScript sẽ chèn trạng thái tại đây -->
+                                  </span>)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- Form liên hệ - Right -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="card border-0 shadow-sm" style="background-color: #ffffff; border-radius: 10px;">
+                        <div class="card-body p-4">
+                          <form id="contactForm" novalidate>
+                            <div class="row">
+                              <div class="col-md-6 mb-3">
+                                <label for="fullName" class="form-label" style="font-weight: 500;">Họ và tên *</label>
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="fullName"
+                                  name="fullName"
+                                  required
+                                  aria-describedby="fullNameError"
+                                  style="border-radius: 8px; border-color: #ced4da; transition: border-color 0.3s ease;"
+                                />
+                                <div id="fullNameError" class="invalid-feedback"></div>
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label" style="font-weight: 500;">Email *</label>
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="email"
+                                  name="email"
+                                  required
+                                  aria-describedby="emailError"
+                                  style="border-radius: 8px; border-color: #ced4da; transition: border-color 0.3s ease;"
+                                />
+                                <div id="emailError" class="invalid-feedback"></div>
+                              </div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="phone" class="form-label" style="font-weight: 500;">Số điện thoại</label>
+                              <input
+                                type="tel"
+                                class="form-control"
+                                id="phone"
+                                name="phone"
+                                style="border-radius: 8px; border-color: #ced4da; transition: border-color 0.3s ease;"
+                              />
+                            </div>
+                            <div class="mb-4">
+                              <label for="message" class="form-label" style="font-weight: 500;">Tin nhắn *</label>
+                              <textarea
+                                class="form-control"
+                                id="message"
+                                name="message"
+                                rows="5"
+                                required
+                                aria-describedby="messageError"
+                                style="border-radius: 8px; border-color: #ced4da; resize: none; transition: border-color 0.3s ease;"
+                              ></textarea>
+                              <div id="messageError" class="invalid-feedback"></div>
+                            </div>
+                            <button
+                              type="submit"
+                              class="btn btn-primary w-100 d-flex align-items-center justify-content-center"
+                              style="border-radius: 8px; padding: 12px; font-weight: 600; transition: background-color 0.3s ease;"
+                            >
+                              <i class="fas fa-paper-plane me-2" aria-hidden="true"></i>Gửi tin nhắn
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Script để hiển thị trạng thái giờ làm việc -->
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const today = new Date("2025-05-30T16:47:00+07:00");
+              const dayOfWeek = today.getDay(); // 0 = Chủ nhật, 1 = Thứ 2, ..., 5 = Thứ 6, 6 = Thứ 7
+              const hours = today.getHours();
+              const minutes = today.getMinutes();
+              const time = hours + minutes / 60; // Thời gian hiện tại dưới dạng số thập phân (8:00 = 8, 17:30 = 17.5)
+          
+              const isWorkingDay = dayOfWeek >= 1 && dayOfWeek <= 5; // Thứ 2 đến Thứ 6
+              const isWorkingHours = time >= 8 && time <= 17.5; // 8:00 - 17:30
+          
+              const statusElement = document.getElementById("current-status");
+              if (isWorkingDay && isWorkingHours) {
+                statusElement.textContent = "Đang mở cửa";
+                statusElement.style.color = "#28a745"; // Màu xanh lá
+                statusElement.style.fontWeight = "600";
+              } else {
+                statusElement.textContent = "Đang đóng cửa";
+                statusElement.style.color = "#dc3545"; // Màu đỏ
+                statusElement.style.fontWeight = "600";
+              }
+            });
+          </script>
+          
+          <style>
+            /* Hiệu ứng hover cho các mục thông tin liên hệ */
+            .contact-item:hover {
+              transform: translateX(5px);
+            }
+          
+            .contact-item:hover i {
+              color: #0056b3 !important;
+            }
+          
+            .contact-item a:hover {
+              color: #0056b3 !important;
+            }
+          
+            /* Hiệu ứng hover cho input và textarea */
+            .form-control:focus {
+              border-color: #007bff !important;
+              box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.1) !important;
+            }
+          
+            /* Hiệu ứng hover cho nút Gửi tin nhắn */
+            .btn-primary:hover {
+              background-color: #0056b3 !important;
+              border-color: #0056b3 !important;
+            }
+          
+            /* Tùy chỉnh giao diện card */
+            .card {
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+          
+            .card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+            }
+          </style>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <!-- Logo và giới thiệu -->
+                <div class="col-lg-4 col-md-12 mb-4  text-md-start">
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center mb-3">
+                        <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="footer-logo" style="max-width: 120px;">
+                    </div>
+                    <p class="text-light">We create mobile apps for millions of users around the world.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3" role="list">
+                        <a href="#" class="text-light social-link" aria-label="Facebook" role="listitem">
+                            <i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="Twitter" role="listitem">
+                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="LinkedIn" role="listitem">
+                            <i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="Instagram" role="listitem">
+                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cột Công ty -->
+                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
+                    <h5 class="text-uppercase mb-3">Công ty</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Giới thiệu</a></li>
+                        <li><a href="#" class="text-light text-decoration-none d-block py-1 hover-opacity">Tuyển dụng</a></li>
+                        <li><a href="blog.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Tin tức</a></li>
+                        <li><a href="contact.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột Liên hệ -->
+                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
+                    <h5 class="text-uppercase mb-3">Liên hệ</h5>
+                    <address class="text-light">
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Tầng 2, 71 Lý Thường Kiệt, Hải Châu, Đà Nẵng</p>
+                        <p><i class="fas fa-phone me-2"></i><a href="tel:+848544914" class="text-light text-decoration-none">+84 48544914</a></p>
+                        <p><i class="fas fa-envelope me-2"></i><a href="mailto:contact@bralydn.com" class="text-light text-decoration-none">contact@bralydn.com</a></p>
+                    </address>
+                </div>
+            </div>
+
+            <hr class="border-light my-4">
+            <div class="text-center">
+                <p class="mb-0 text-light">© 2024 Braly Da Nang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Notification Container -->
+    <div id="notification-container" aria-live="polite" aria-atomic="true" style="position: fixed; top: 20px; right: 20px; z-index: 1050;"></div>
+
+    <!-- Scripts -->
+    <!-- jQuery (required for Bootstrap 4) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+    <!-- Popper.js (required for Bootstrap 4 dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap 4 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

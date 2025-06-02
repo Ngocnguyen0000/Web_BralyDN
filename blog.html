@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Tin tức - Braly</title>
+    
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Braly Homepage">
+                <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="navbar-logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="blog.html" aria-current="page">
+                            Blog & Tin tức
+                        </a>
+                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#activities">Hoạt động gần đây</a>
+                            <a class="dropdown-item" href="blog.html">Blog & Tin tức</a>
+                        </div> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Sản phẩm</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="services.html">Dịch vụ</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section-small bg-primary text-white d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="hero-title mb-4">Blog & Tin tức</h1>
+            <p class="hero-subtitle">
+                Chia sẻ kiến thức, kinh nghiệm và những xu hướng mới nhất trong lĩnh vực công nghệ
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="py-5">
+        <div class="container">
+            <div class="card border-0 shadow-lg overflow-hidden">
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <img src="/assets/images/493155000_652981014175071_768687.png" alt="Featured Post" class="img-fluid h-100 w-100" style="object-fit: cover;">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-body p-5 h-100 d-flex flex-column justify-content-center">
+                            <a href="#" class="btn btn-primary">
+                                Bài viết nổi bật
+                            </a>
+                            <br>
+                            <h2 class="card-title mb-3">Xu hướng phát triển ứng dụng di động năm 2024</h2>
+                            <p class="card-text text-muted mb-4">
+                                Khám phá những công nghệ và xu hướng mới nhất trong phát triển ứng dụng di động sẽ định hình ngành công nghiệp trong năm 2024.
+                            </p>
+                            <div class="d-flex align-items-center text-muted small mb-4">
+                                <span class="mr-3"><i class="fas fa-user mr-1"></i>Nguyễn Văn A</span>
+                                <span class="mr-3"><i class="fas fa-calendar mr-1"></i>15 Tháng 1, 2024</span>
+                                <span class="badge badge-outline-primary">Công nghệ</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">
+                                Đọc tiếp <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Filter -->
+    <!-- <section class="pb-4">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+                <button class="btn btn-primary mr-2 mb-2">Tất cả</button>
+                <button class="btn btn-outline-secondary mr-2 mb-2">Công nghệ</button>
+                <button class="btn btn-outline-secondary mr-2 mb-2">Development</button>
+                <button class="btn btn-outline-secondary mr-2 mb-2">Design</button>
+                <button class="btn btn-outline-secondary mr-2 mb-2">Security</button>
+                <button class="btn btn-outline-secondary mr-2 mb-2">AI/ML</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Blog Posts Grid -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-primary">Development</span>
+                                <small class="text-muted">8 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">React Native vs Flutter: So sánh chi tiết 2024</h5>
+                            <p class="card-text text-muted">Phân tích ưu nhược điểm của hai framework phát triển ứng dụng di động phổ biến nhất hiện nay.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Trần Thị B
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>12/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-success">Performance</span>
+                                <small class="text-muted">6 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">Tối ưu hiệu suất ứng dụng React Native</h5>
+                            <p class="card-text text-muted">Những kỹ thuật và best practices để cải thiện hiệu suất ứng dụng React Native của bạn.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Lê Văn C
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>10/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-warning">Design</span>
+                                <small class="text-muted">4 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">UI/UX Design Trends 2024</h5>
+                            <p class="card-text text-muted">Khám phá những xu hướng thiết kế giao diện người dùng sẽ thống trị trong năm 2024.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Phạm Thị D
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>08/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-danger">Security</span>
+                                <small class="text-muted">7 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">Bảo mật ứng dụng di động: Những điều cần biết</h5>
+                            <p class="card-text text-muted">Hướng dẫn chi tiết về cách bảo vệ ứng dụng di động khỏi các mối đe dọa bảo mật.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Hoàng Văn E
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>05/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-info">AI/ML</span>
+                                <small class="text-muted">9 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">Machine Learning trong ứng dụng di động</h5>
+                            <p class="card-text text-muted">Cách tích hợp AI và Machine Learning vào ứng dụng di động để tạo ra trải nghiệm thông minh.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Nguyễn Thị F
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>03/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card blog-card h-100 border-0 shadow hover-lift">
+                        <div class="card-img-container">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge badge-outline-secondary">Web Development</span>
+                                <small class="text-muted">5 phút đọc</small>
+                            </div>
+                            <h5 class="card-title">Progressive Web Apps: Tương lai của web</h5>
+                            <p class="card-text text-muted">Tìm hiểu về PWA và cách chúng đang thay đổi cách chúng ta tiếp cận phát triển web.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-user mr-1"></i>Vũ Văn G
+                                    <i class="fas fa-calendar ml-2 mr-1"></i>01/01/2024
+                                </small>
+                                <a href="#" class="btn btn-link btn-sm text-primary p-0">
+                                    Đọc thêm <i class="fas fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More -->
+            <!-- <div class="text-center mt-4">
+                <button class="btn btn-outline-primary">Xem thêm bài viết</button>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <!-- <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h3 class="mb-3">Theo dõi fanpage để cập nhật bài viết mới.</h3>
+                    <p class="text-muted mb-4">Nhận thông báo về những bài viết mới nhất và xu hướng công nghệ từ Braly</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Nhập email của bạn">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">Đăng ký</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <!-- Logo và giới thiệu -->
+                <div class="col-lg-4 col-md-12 mb-4  text-md-start">
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center mb-3">
+                        <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="footer-logo" style="max-width: 120px;">
+                    </div>
+                    <p class="text-light">We create mobile apps for millions of users around the world.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3" role="list">
+                        <a href="#" class="text-light social-link" aria-label="Facebook" role="listitem">
+                            <i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="Twitter" role="listitem">
+                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="LinkedIn" role="listitem">
+                            <i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-light social-link" aria-label="Instagram" role="listitem">
+                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cột Công ty -->
+                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
+                    <h5 class="text-uppercase mb-3">Công ty</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Giới thiệu</a></li>
+                        <li><a href="#" class="text-light text-decoration-none d-block py-1 hover-opacity">Tuyển dụng</a></li>
+                        <li><a href="blog.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Tin tức</a></li>
+                        <li><a href="contact.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột Liên hệ -->
+                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
+                    <h5 class="text-uppercase mb-3">Liên hệ</h5>
+                    <address class="text-light">
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Tầng 2, 71 Lý Thường Kiệt, Hải Châu, Đà Nẵng</p>
+                        <p><i class="fas fa-phone me-2"></i><a href="tel:+848544914" class="text-light text-decoration-none">+84 48544914</a></p>
+                        <p><i class="fas fa-envelope me-2"></i><a href="mailto:contact@bralydn.com" class="text-light text-decoration-none">contact@bralydn.com</a></p>
+                    </address>
+                </div>
+            </div>
+
+            <hr class="border-light my-4">
+            <div class="text-center">
+                <p class="mb-0 text-light">© 2024 Braly Da Nang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
