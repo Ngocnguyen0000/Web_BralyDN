@@ -18,48 +18,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Fixed Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm" role="navigation" aria-label="Main navigation">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Braly Homepage">
-                <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="navbar-logo">
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Trang chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">
-                            Blog & Tin tức
-                        </a>
-                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#activities">Hoạt động gần đây</a>
-                            <a class="dropdown-item" href="blog.html">Blog & Tin tức</a>
-                        </div> -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="product.html">Sản phẩm</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="services.html">Dịch vụ</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Giới thiệu</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html" aria-current="page">Liên hệ</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Navigation will be loaded here -->
+    <div id="navigation-container"></div>
 
+    <main>
     <!-- Hero Section -->
     <section class="hero-section-small bg-primary text-white d-flex align-items-center">
         <div class="container text-center">
@@ -105,8 +67,8 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <h5 class="card-title mb-3">Email</h5>
-                            <p class="text-muted">contact@bralydn.com</p>
-                            <p class="text-muted">support@bralydn.com</p>
+                            <p class="text-muted">bralydn@bralyvn.com</p>
+                            <!-- <p class="text-muted">support@bralydn.com</p> -->
                         </div>
                     </div>
                 </div>
@@ -214,11 +176,10 @@
                                 <i class="fas fa-map-marker-alt mr-2"></i>71 Lý Thường Kiệt, Quận Hải Châu, Đà Nẵng
                             </p>
                             <p class="text-muted small mb-1">
-                                <i class="fas fa-phone mr-2"></i>+84 555 666 777
+                                <i class="fas fa-phone mr-2"></i>+84 48544914
                             </p>
                             <p class="text-muted small mb-0">
-                                <i class="fas fa-envelope mr-2"></i>danang@braly.com
-                            </p>
+                                <i class="fas fa-envelope mr-2"></i>bralydn@bralyvn.com                            </p>
                         </div>
                     </div>
                 </div>
@@ -250,11 +211,10 @@
                                     <i class="fas fa-map-marker-alt mr-2"></i>71 Lý Thường Kiệt, Quận Hải Châu, Đà Nẵng
                                 </p>
                                 <p class="text-muted small mb-1">
-                                    <i class="fas fa-phone mr-2"></i>+84 555 666 777
+                                    <i class="fas fa-phone mr-2"></i>+84 48544914
                                 </p>
                                 <p class="text-muted small mb-0">
-                                    <i class="fas fa-envelope mr-2"></i>danang@braly.com
-                                </p>
+                                    <i class="fas fa-envelope mr-2"></i>bralydn@bralyvn.com                                </p>
                             </div>
                         </div> -->
                     </div>
@@ -342,62 +302,10 @@
             </div>
         </div>
     </section> -->
+    </main>
 
-    <!-- Footer -->
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-5" role="contentinfo">
-        <div class="container">
-            <div class="row">
-                <!-- Logo và giới thiệu -->
-                <div class="col-lg-4 col-md-12 mb-4  text-md-start">
-                    <div class="d-flex justify-content-center justify-content-md-start align-items-center mb-3">
-                        <img src="assets/images/Logo_mau.png" alt="Braly Logo" class="footer-logo" style="max-width: 120px;">
-                    </div>
-                    <p class="text-light">We create mobile apps for millions of users around the world.</p>
-                    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3" role="list">
-                        <a href="#" class="text-light social-link" aria-label="Facebook" role="listitem">
-                            <i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="text-light social-link" aria-label="Twitter" role="listitem">
-                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="text-light social-link" aria-label="LinkedIn" role="listitem">
-                            <i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="text-light social-link" aria-label="Instagram" role="listitem">
-                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Cột Công ty -->
-                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
-                    <h5 class="text-uppercase mb-3">Công ty</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="about.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Giới thiệu</a></li>
-                        <li><a href="#" class="text-light text-decoration-none d-block py-1 hover-opacity">Tuyển dụng</a></li>
-                        <li><a href="blog.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Tin tức</a></li>
-                        <li><a href="contact.html" class="text-light text-decoration-none d-block py-1 hover-opacity">Liên hệ</a></li>
-                    </ul>
-                </div>
-
-                <!-- Cột Liên hệ -->
-                <div class="col-lg-4 col-md-6 mb-4  text-md-start">
-                    <h5 class="text-uppercase mb-3">Liên hệ</h5>
-                    <address class="text-light">
-                        <p><i class="fas fa-map-marker-alt me-2"></i>Tầng 2, 71 Lý Thường Kiệt, Hải Châu, Đà Nẵng</p>
-                        <p><i class="fas fa-phone me-2"></i><a href="tel:+848544914" class="text-light text-decoration-none">+84 48544914</a></p>
-                        <p><i class="fas fa-envelope me-2"></i><a href="mailto:contact@bralydn.com" class="text-light text-decoration-none">contact@bralydn.com</a></p>
-                    </address>
-                </div>
-            </div>
-
-            <hr class="border-light my-4">
-            <div class="text-center">
-                <p class="mb-0 text-light">© 2025 Braly Da Nang. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer will be loaded here -->
+    <div id="footer-container"></div>
 
     <!-- Back to Top Button -->
     <button id="backToTop" class="btn btn-primary back-to-top">
@@ -411,5 +319,7 @@
     
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/footer.js"></script>
 </body>
 </html>
